@@ -1,0 +1,25 @@
+export const API_Config = {
+
+  BASE_URL: "https://training.tamkeen-dev.com/tamkeenstore/public/api",
+  ENDPOINTS: {
+    REGISTER: "register",
+    LOGIN: "login",
+    RESEND: "resend",
+    VERIFY: "verify",
+    PRODUCTS: "product",
+    CATEGORIES: "category",
+    PRODUCT_DETAILS: (id) => `product/${id}`,
+    CART: "cart",
+    CUSTOMER: "customer",
+    FAVORITE: "favorite",
+    CONTACT: "contact",
+     ADDRESS: "address",
+    ORDER: "order",
+   MY_PRODUCTS: "product?mine=1",
+    ADMIN_LOGIN: "admin/login",
+    ADMIN_LOGOUT: "admin/logout",
+    ADMIN_PRODUCTS: "admin/product",
+    ADMIN_CATEGORIES: "admin/category",
+    ADMIN_ORDERS: "admin/order",
+  },
+};
